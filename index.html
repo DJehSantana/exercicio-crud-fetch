@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head lang="pt-BR">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Employees</title>
+</head>
+
+<body>
+  <div id="errors"></div>
+
+  <form>
+    <label>Name: <input type="text" name="name" class="input"></label>
+    <label>Salary: <input name="salary" type="number" class="input"> </label>
+    <label>Role:
+      <select name="role_id" class="select">
+
+      </select> </label>
+    <div>
+      <button type="button" id="delete">Delete</button>
+      <button type="button" id="cancel">Cancel</button>
+      <button type="submit" id="submit">Create</button>
+    </div>
+  </form>
+
+  <ul></ul>
+
+  <script src="./http.js"></script>
+  <script src="./main.js"></script>
+</body>
